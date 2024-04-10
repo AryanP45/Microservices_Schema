@@ -10,6 +10,7 @@ import com.aryanp45.inventoryservice.model.Inventory;
 import com.aryanp45.inventoryservice.repository.InventoryRepository;
 
 @SpringBootApplication
+@EnableDiscoveryClient
 public class InventoryServiceApplication {
 
 	public static void main(String[] args) {
