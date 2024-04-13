@@ -20,15 +20,6 @@ public class InventoryService {
 
 	@Transactional(readOnly = true)
 	public List<InventoryResponse> isInStock(List<String> skuCode) {
-
-//		Implemented sleep for timeout testing in circuitbreaker - inventory(order-service)		
-		log.info("wait started !!");
-		try {
-			Thread.sleep(10000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-		log.info("Wait ended !!");
 		return inventoryRepository.findBySkuCodeIn(skuCode)
 				.stream()
 				.map(inventory -> 
