@@ -1,1 +1,1 @@
-[Architecture Image](./readme-assets/architecture.png)
+<img src="./readme-assets/architecture.png">
