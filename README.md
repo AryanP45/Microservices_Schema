@@ -22,3 +22,10 @@
 
 # Zipkin config : 
 > docker run -d -p 9411:9411 openzipkin/zipkin
+
+<br/>
+
+# Kafka config : 
+> refer to  : https://docs.confluent.io/platform/current/platform-quickstart.html
+
+> Navigate to Control Center at http://localhost:9021
