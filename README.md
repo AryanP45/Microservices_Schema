@@ -18,4 +18,7 @@
         * Turn On Service accounts roles
 
 
+<br/>
 
+# Zipkin config : 
+> docker run -d -p 9411:9411 openzipkin/zipkin
